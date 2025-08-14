@@ -145,15 +145,9 @@ export default function Home() {
   return (
     <div className={`min-h-screen bg-gray-50 ${inter.className}`}>
        {/* Responsive image that works on all screen sizes */}
+       {/* Responsive image that works on all screen sizes */}
       <div className="w-full">
-        <Image
-          src="/image.jpg"
-          alt="logo"
-          width={2000}
-          height={100}
-          className="w-full h-auto object-cover max-h-32 sm:max-h-40 md:max-h-48 lg:max-h-56"
-          priority
-        />
+        <Image src="/image.jpg" alt="logo" width={2000} height={100} className="w-full h-auto object-cover" priority />
       </div>
       {/* Main Content */}
       <main className="mx-auto max-w-8xl px-4 py-8 sm:px-6 lg:px-8">
