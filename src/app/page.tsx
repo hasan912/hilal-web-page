@@ -184,7 +184,7 @@ function AppCard({ title, href, icon: Icon, bgColor, iconColor }: AppCard) {
           <Icon className={`h-16 w-16 ${iconColor}`} />
         </div>
         <div className="p-4">
-          <h3 className="font-medium text-gray-900 group-hover:text-gray-700 transition-colors duration-200 text-center">
+          <h3 className="font-bold text-xl text-gray-900 group-hover:text-gray-700 transition-colors duration-200 text-center">
             {title}
           </h3>
         </div>
